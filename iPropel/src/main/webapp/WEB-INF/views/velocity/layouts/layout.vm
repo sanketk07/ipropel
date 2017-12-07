@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Welcome to iPropel</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="resources/css/bootstrap.css" rel="stylesheet"/>
+        
+    <!-- Custom styles for this template -->
+    <link href="resources/css/style.css" rel="stylesheet"/>
+    <link href="resources/css/style-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <div style="height: 1px;">
+      #parse("/WEB-INF/views/velocity/fragments/_header.vm")
+  </div>
+
+  <section id="container"> 
+  
+  <div>
+  	
+    <!-- View abc.vm is inserted here -->
+    $screen_content
+ 
+  </div>
+  <button class"btn">kfgg</button>
+  
+  <div style="bottom: 0;position: absolute;width: 100%;">
+      #parse("/WEB-INF/views/velocity/fragments/_footer.vm")
+  </div>  
+	  
+      
+      
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  
+
+  </body>
+</html>
+
+

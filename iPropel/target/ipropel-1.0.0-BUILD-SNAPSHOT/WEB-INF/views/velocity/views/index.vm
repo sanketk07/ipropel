@@ -1,0 +1,16 @@
+<div style="padding: 50px;">
+ 
+<h2>Companies list</h2>
+<table border="1">
+<tr>
+ <th style="padding: 5px;">Company Name</th>
+ <th style="padding: 5px;">Company Description</th>
+</tr>
+#foreach($company in $companies)
+  <tr>
+   <td style="padding: 5px;">$company.companyName</td>
+   <td style="padding: 5px;">$company.companyDescription</td>
+  </tr>
+#end
+</table>
+</div>
